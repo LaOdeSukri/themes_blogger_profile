@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:css='false' b:defaultwidgetversion='2' b:responsive='true'
-    expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale'
-    xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b'
-    xmlns:data='http://www.google.com/2005/gml/data'
-    xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html b:css='false' b:defaultwidgetversion='2' b:responsive='true' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 
     <!-- 
     PENGEMBANG  : Sukri Sulawesi
@@ -12,93 +8,65 @@
     Email       : 4z3stehnology@gmailcom
     -->
     <head>
-        <meta charset='UTF-8' />
-        <meta content='width=device-width, initial-scale=1' name='viewport' />
+        <meta charset='UTF-8'/>
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
         <title>
-            <data:view.title.escaped />
+            <data:view.title.escaped/>
         </title>
 
         <!-- Meta SEO Dasar -->
-        <meta
-            content='Sukri Sulawesi - Fullstack &amp; Hardware Developer. Ahli CodeIgniter, Laravel, PHP, JavaScript, MySQL, serta layanan teknis dan kursus IT. Hubungi untuk proyek website, aplikasi, dan servis komputer.'
-            name='description' />
-        <meta
-            content='Sukri Sulawesi, Developer, CodeIgniter 4, Laravel, PHP, JavaScript, MySQL, Hardware, Server, Networking, Kursus IT, Servis Laptop, Website Developer'
-            name='keywords' />
-        <meta content='Sukri Sulawesi' name='author' />
-        <meta content='index, follow' name='robots' />
+        <meta content='Sukri Sulawesi - Fullstack &amp; Hardware Developer. Ahli CodeIgniter, Laravel, PHP, JavaScript, MySQL, serta layanan teknis dan kursus IT. Hubungi untuk proyek website, aplikasi, dan servis komputer.' name='description'/>
+        <meta content='Sukri Sulawesi, Developer, CodeIgniter 4, Laravel, PHP, JavaScript, MySQL, Hardware, Server, Networking, Kursus IT, Servis Laptop, Website Developer' name='keywords'/>
+        <meta content='Sukri Sulawesi' name='author'/>
+        <meta content='index, follow' name='robots'/>
 
         <!-- Open Graph (untuk Facebook, LinkedIn, WhatsApp, dll) -->
-        <meta content='Sukri Sulawesi - Fullstack &amp; Hardware Developer' property='og:title' />
-        <meta
-            content='Ahli CodeIgniter, Laravel, PHP, JavaScript, MySQL, serta layanan teknis dan kursus IT. Hubungi untuk proyek website, aplikasi, dan servis komputer.'
-            property='og:description' />
-        <meta
-            content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioEaxVlXp1tywrNzeF0B4ozKMJtZ3QC4gDNuziN4J26LM5NccYvenbjVxkJ6daCTUSo6DiYPJjdIAcQlsNI_XAfWqOlOectuAM2ugOJ4YWsbwgXzxTVVslt0F1WR5X_twqEyHaPJ-EG01PgXH8WCpA_3aasPNqfUrHdtP6YzwuC5GvGfJe1bgWaQpwuHkH/s320/sukri.jpeg'
-            property='og:image' />
-        <meta content='https://4z3stehnology.com' property='og:url' />
-        <meta content='website' property='og:type' />
+        <meta content='Sukri Sulawesi - Fullstack &amp; Hardware Developer' property='og:title'/>
+        <meta content='Ahli CodeIgniter, Laravel, PHP, JavaScript, MySQL, serta layanan teknis dan kursus IT. Hubungi untuk proyek website, aplikasi, dan servis komputer.' property='og:description'/>
+        <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioEaxVlXp1tywrNzeF0B4ozKMJtZ3QC4gDNuziN4J26LM5NccYvenbjVxkJ6daCTUSo6DiYPJjdIAcQlsNI_XAfWqOlOectuAM2ugOJ4YWsbwgXzxTVVslt0F1WR5X_twqEyHaPJ-EG01PgXH8WCpA_3aasPNqfUrHdtP6YzwuC5GvGfJe1bgWaQpwuHkH/s320/sukri.jpeg' property='og:image'/>
+        <meta content='https://4z3stehnology.com' property='og:url'/>
+        <meta content='website' property='og:type'/>
 
         <!-- Twitter Card -->
-        <meta content='summary_large_image' name='twitter:card' />
-        <meta content='Sukri Sulawesi - Fullstack &amp; Hardware Developer' name='twitter:title' />
-        <meta
-            content='Ahli CodeIgniter, Laravel, PHP, JavaScript, MySQL, serta layanan teknis dan kursus IT. Hubungi untuk proyek website, aplikasi, dan servis komputer.'
-            name='twitter:description' />
-        <meta
-            content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioEaxVlXp1tywrNzeF0B4ozKMJtZ3QC4gDNuziN4J26LM5NccYvenbjVxkJ6daCTUSo6DiYPJjdIAcQlsNI_XAfWqOlOectuAM2ugOJ4YWsbwgXzxTVVslt0F1WR5X_twqEyHaPJ-EG01PgXH8WCpA_3aasPNqfUrHdtP6YzwuC5GvGfJe1bgWaQpwuHkH/s320/sukri.jpeg'
-            name='twitter:image' />
-        <meta content='@SukriSulawesi' name='twitter:site' />
+        <meta content='summary_large_image' name='twitter:card'/>
+        <meta content='Sukri Sulawesi - Fullstack &amp; Hardware Developer' name='twitter:title'/>
+        <meta content='Ahli CodeIgniter, Laravel, PHP, JavaScript, MySQL, serta layanan teknis dan kursus IT. Hubungi untuk proyek website, aplikasi, dan servis komputer.' name='twitter:description'/>
+        <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioEaxVlXp1tywrNzeF0B4ozKMJtZ3QC4gDNuziN4J26LM5NccYvenbjVxkJ6daCTUSo6DiYPJjdIAcQlsNI_XAfWqOlOectuAM2ugOJ4YWsbwgXzxTVVslt0F1WR5X_twqEyHaPJ-EG01PgXH8WCpA_3aasPNqfUrHdtP6YzwuC5GvGfJe1bgWaQpwuHkH/s320/sukri.jpeg' name='twitter:image'/>
+        <meta content='@SukriSulawesi' name='twitter:site'/>
 
         <!-- SEO Meta Tags -->
-        <meta
-            content='OpenSID &amp; OpenDesa: Sistem Informasi Desa modern. PT. 4Z3S Technology membantu implementasi OpenSID untuk manajemen desa yang efisien.'
-            name='description' />
-        <meta
-            content='OpenSID, OpenDesa, Sistem Informasi Desa, Desa Digital, Manajemen Desa, PT 4Z3S Technology, Sukri Sulawesi'
-            name='keywords' />
-        <meta content='Sukri Sulawesi - PT 4Z3S Technology' name='author' />
-        <meta content='index, follow' name='robots' />
+        <meta content='OpenSID &amp; OpenDesa: Sistem Informasi Desa modern. PT. 4Z3S Technology membantu implementasi OpenSID untuk manajemen desa yang efisien.' name='description'/>
+        <meta content='OpenSID, OpenDesa, Sistem Informasi Desa, Desa Digital, Manajemen Desa, PT 4Z3S Technology, Sukri Sulawesi' name='keywords'/>
+        <meta content='Sukri Sulawesi - PT 4Z3S Technology' name='author'/>
+        <meta content='index, follow' name='robots'/>
 
         <!-- Open Graph / Facebook & LinkedIn -->
-        <meta content='OpenSID &amp; OpenDesa - PT 4Z3S Technology' property='og:title' />
-        <meta
-            content='Implementasi OpenSID untuk Desa Digital: Kelola data, laporan, dan layanan desa lebih mudah.'
-            property='og:description' />
-        <meta content='website' property='og:type' />
-        <meta content='https://4z3stehnology.com' property='og:url' />
-        <meta
-            content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-wfU8VEzi5G5LTfdhNU-qR9EP8xAkRizeyaNqwv0nVkLoGYgzcQsws-IdiqWMFfPAFcbqFNY-ctWKkbx4Qc4YOScwnkDAJOlH5bN_3E4AxeyE52RkhnfK75MgJkP0huS5tjK9Ynep-qXwykGo5QGGlamBwCc4lPllHTIOtZM0Gt7mEodaKKE9Ti_CSy/s320/LOGO%204Z3S%20TECHNOLOGY.png'
-            property='og:image' />
+        <meta content='OpenSID &amp; OpenDesa - PT 4Z3S Technology' property='og:title'/>
+        <meta content='Implementasi OpenSID untuk Desa Digital: Kelola data, laporan, dan layanan desa lebih mudah.' property='og:description'/>
+        <meta content='website' property='og:type'/>
+        <meta content='https://4z3stehnology.com' property='og:url'/>
+        <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-wfU8VEzi5G5LTfdhNU-qR9EP8xAkRizeyaNqwv0nVkLoGYgzcQsws-IdiqWMFfPAFcbqFNY-ctWKkbx4Qc4YOScwnkDAJOlH5bN_3E4AxeyE52RkhnfK75MgJkP0huS5tjK9Ynep-qXwykGo5QGGlamBwCc4lPllHTIOtZM0Gt7mEodaKKE9Ti_CSy/s320/LOGO%204Z3S%20TECHNOLOGY.png' property='og:image'/>
 
         <!-- Twitter Card -->
-        <meta content='summary_large_image' name='twitter:card' />
-        <meta content='OpenSID &amp; OpenDesa - PT 4Z3S Technology' name='twitter:title' />
-        <meta
-            content='Implementasi OpenSID untuk Desa Digital: Kelola data, laporan, dan layanan desa lebih mudah.'
-            name='twitter:description' />
-        <meta
-            content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-wfU8VEzi5G5LTfdhNU-qR9EP8xAkRizeyaNqwv0nVkLoGYgzcQsws-IdiqWMFfPAFcbqFNY-ctWKkbx4Qc4YOScwnkDAJOlH5bN_3E4AxeyE52RkhnfK75MgJkP0huS5tjK9Ynep-qXwykGo5QGGlamBwCc4lPllHTIOtZM0Gt7mEodaKKE9Ti_CSy/s320/LOGO%204Z3S%20TECHNOLOGY.png'
-            name='twitter:image' />
-        <meta content='@SukriSulawesi' name='twitter:site' />
-        <meta content='@SukriSulawesi' name='twitter:creator' />
+        <meta content='summary_large_image' name='twitter:card'/>
+        <meta content='OpenSID &amp; OpenDesa - PT 4Z3S Technology' name='twitter:title'/>
+        <meta content='Implementasi OpenSID untuk Desa Digital: Kelola data, laporan, dan layanan desa lebih mudah.' name='twitter:description'/>
+        <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-wfU8VEzi5G5LTfdhNU-qR9EP8xAkRizeyaNqwv0nVkLoGYgzcQsws-IdiqWMFfPAFcbqFNY-ctWKkbx4Qc4YOScwnkDAJOlH5bN_3E4AxeyE52RkhnfK75MgJkP0huS5tjK9Ynep-qXwykGo5QGGlamBwCc4lPllHTIOtZM0Gt7mEodaKKE9Ti_CSy/s320/LOGO%204Z3S%20TECHNOLOGY.png' name='twitter:image'/>
+        <meta content='@SukriSulawesi' name='twitter:site'/>
+        <meta content='@SukriSulawesi' name='twitter:creator'/>
 
 
         <!-- Favicon -->
-        <link
-            href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-wfU8VEzi5G5LTfdhNU-qR9EP8xAkRizeyaNqwv0nVkLoGYgzcQsws-IdiqWMFfPAFcbqFNY-ctWKkbx4Qc4YOScwnkDAJOlH5bN_3E4AxeyE52RkhnfK75MgJkP0huS5tjK9Ynep-qXwykGo5QGGlamBwCc4lPllHTIOtZM0Gt7mEodaKKE9Ti_CSy/s320/LOGO%204Z3S%20TECHNOLOGY.png'
-            rel='icon' type='image/png' />
+        <link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-wfU8VEzi5G5LTfdhNU-qR9EP8xAkRizeyaNqwv0nVkLoGYgzcQsws-IdiqWMFfPAFcbqFNY-ctWKkbx4Qc4YOScwnkDAJOlH5bN_3E4AxeyE52RkhnfK75MgJkP0huS5tjK9Ynep-qXwykGo5QGGlamBwCc4lPllHTIOtZM0Gt7mEodaKKE9Ti_CSy/s320/LOGO%204Z3S%20TECHNOLOGY.png' rel='icon' type='image/png'/>
 
         <!-- Google Font -->
-        <link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap'
-            rel='stylesheet' />
+        <link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap' rel='stylesheet'/>
 
         <!-- Bootstrap CSS -->
-        <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css'
-            rel='stylesheet' />
+        <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' rel='stylesheet'/>
 
         <!-- aos  -->
-        <link href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet' />
+        <link href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet'/>
 
         <!-- Custom CSS -->
         <b:skin><![CDATA[
@@ -587,18 +555,14 @@
 
     <body>
         <!-- HEADER -->
-        <header class='d-flex align-items-center justify-content-center gap-3'
-            style='padding:20px; border-bottom:1px solid #30363d;'>
+        <header class='d-flex align-items-center justify-content-center gap-3' style='padding:20px; border-bottom:1px solid #30363d;'>
             <!-- Logo -->
-            <img alt='Logo' class='logo-spin'
-                src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-wfU8VEzi5G5LTfdhNU-qR9EP8xAkRizeyaNqwv0nVkLoGYgzcQsws-IdiqWMFfPAFcbqFNY-ctWKkbx4Qc4YOScwnkDAJOlH5bN_3E4AxeyE52RkhnfK75MgJkP0huS5tjK9Ynep-qXwykGo5QGGlamBwCc4lPllHTIOtZM0Gt7mEodaKKE9Ti_CSy/s320/LOGO%204Z3S%20TECHNOLOGY.png' />
+            <img alt='Logo' class='logo-spin' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyl-wfU8VEzi5G5LTfdhNU-qR9EP8xAkRizeyaNqwv0nVkLoGYgzcQsws-IdiqWMFfPAFcbqFNY-ctWKkbx4Qc4YOScwnkDAJOlH5bN_3E4AxeyE52RkhnfK75MgJkP0huS5tjK9Ynep-qXwykGo5QGGlamBwCc4lPllHTIOtZM0Gt7mEodaKKE9Ti_CSy/s320/LOGO%204Z3S%20TECHNOLOGY.png'/>
 
             <!-- Teks Header -->
             <div>
-                <h1 data-aos='fade-left' data-aos-anchor='#example-anchor' data-aos-duration='500'
-                    data-aos-offset='500' style='margin:0; font-size:1.8rem;'>PT. 4Z3S TECHNOLOGY</h1>
-                <p data-aos='fade-left' data-aos-anchor='#example-anchor' data-aos-duration='500'
-                    data-aos-offset='500' style='margin:0; font-size:0.9rem; color:#c9d1d9;'>NPWP :
+                <h1 data-aos='fade-left' data-aos-anchor='#example-anchor' data-aos-duration='500' data-aos-offset='500' style='margin:0; font-size:1.8rem;'>PT. 4Z3S TECHNOLOGY</h1>
+                <p data-aos='fade-left' data-aos-anchor='#example-anchor' data-aos-duration='500' data-aos-offset='500' style='margin:0; font-size:0.9rem; color:#c9d1d9;'>NPWP :
                     12.666.036.4-832.000 |
                     Email :
                     4z3stehnology@gmail.com</p>
@@ -610,8 +574,7 @@
         <div class='layout'>
             <!-- Sidebar kiri -->
             <aside data-aos='fade-right'>
-                <img alt='Sukri Sulawesi' class='profile' data-aos='zoom-in' data-aos-delay='200'
-                    src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioEaxVlXp1tywrNzeF0B4ozKMJtZ3QC4gDNuziN4J26LM5NccYvenbjVxkJ6daCTUSo6DiYPJjdIAcQlsNI_XAfWqOlOectuAM2ugOJ4YWsbwgXzxTVVslt0F1WR5X_twqEyHaPJ-EG01PgXH8WCpA_3aasPNqfUrHdtP6YzwuC5GvGfJe1bgWaQpwuHkH/s320/sukri.jpeg' />
+                <img alt='Sukri Sulawesi' class='profile' data-aos='zoom-in' data-aos-delay='200' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioEaxVlXp1tywrNzeF0B4ozKMJtZ3QC4gDNuziN4J26LM5NccYvenbjVxkJ6daCTUSo6DiYPJjdIAcQlsNI_XAfWqOlOectuAM2ugOJ4YWsbwgXzxTVVslt0F1WR5X_twqEyHaPJ-EG01PgXH8WCpA_3aasPNqfUrHdtP6YzwuC5GvGfJe1bgWaQpwuHkH/s320/sukri.jpeg'/>
 
                 <h2 data-aos='fade-up' data-aos-delay='300'>Sukri Sulawesi</h2>
                 <p data-aos='fade-up' data-aos-delay='400'>Fullstack &amp; Hardware Developer</p>
@@ -626,8 +589,7 @@
                 </p>
 
                 <!-- Data Profil -->
-                <ul class=''
-                    style='list-style:none; padding:0; margin-top:15px; font-size:0.85rem; color:#c9d1d9;'>
+                <ul class='' style='list-style:none; padding:0; margin-top:15px; font-size:0.85rem; color:#c9d1d9;'>
                     <li><strong>Email:</strong> 4z3stehnology@gmail.com</li>
                     <li><strong>Telepon:</strong> +62 852-5113-5340</li>
                     <li><strong>Alamat:</strong> Sulawesi, Indonesia</li>
@@ -638,19 +600,17 @@
                 </ul>
 
 
-                <b:section class='sidebar' id='sidebar' showaddelement='yes' />
+                <b:section class='sidebar' id='sidebar' showaddelement='yes'/>
 
                 <div class=''>
                     <!-- Media Sosial -->
-                    <table
-                        style='width:100%; max-width:500px; border-collapse:collapse; font-size:0.9rem; color:#c9d1d9; margin-top:15px;'>
+                    <table style='width:100%; max-width:500px; border-collapse:collapse; font-size:0.9rem; color:#c9d1d9; margin-top:15px;'>
                         <tr style='border-bottom:1px solid #30363d;'>
                             <td style='padding:10px 12px;'>
                                 <div style='font-weight:bold; margin-bottom:5px;'>
-                                    <i class='bi bi-github' /> GitHub </div>
+                                    <i class='bi bi-github'/> GitHub </div>
                                 <div>
-                                    <a href='https://github.com/LaOdeSukri'
-                                        style='color:#58a6ff; text-decoration:none;' target='_blank'>
+                                    <a href='https://github.com/LaOdeSukri' style='color:#58a6ff; text-decoration:none;' target='_blank'>
                                         github.com/SukriSulawesi
                                     </a>
                                 </div>
@@ -659,10 +619,9 @@
                         <tr style='border-bottom:1px solid #30363d;'>
                             <td style='padding:10px 12px;'>
                                 <div style='font-weight:bold; margin-bottom:5px;'>
-                                    <i class='bi bi-linkedin' /> LinkedIn </div>
+                                    <i class='bi bi-linkedin'/> LinkedIn </div>
                                 <div>
-                                    <a href='https://www.linkedin.com/in/sukri-sulawesi-099967383/'
-                                        style='color:#58a6ff; text-decoration:none;' target='_blank'>
+                                    <a href='https://www.linkedin.com/in/sukri-sulawesi-099967383/' style='color:#58a6ff; text-decoration:none;' target='_blank'>
                                         linkedin.com/in/SukriSulawesi
                                     </a>
                                 </div>
@@ -671,10 +630,9 @@
                         <tr style='border-bottom:1px solid #30363d;'>
                             <td style='padding:10px 12px;'>
                                 <div style='font-weight:bold; margin-bottom:5px;'>
-                                    <i class='bi bi-instagram' /> Instagram </div>
+                                    <i class='bi bi-instagram'/> Instagram </div>
                                 <div>
-                                    <a href='https://instagram.com/sukrisulawesi'
-                                        style='color:#58a6ff; text-decoration:none;' target='_blank'>
+                                    <a href='https://instagram.com/sukrisulawesi' style='color:#58a6ff; text-decoration:none;' target='_blank'>
                                         @SukriSulawesi
                                     </a>
                                 </div>
@@ -683,11 +641,9 @@
                         <tr>
                             <td style='padding:10px 12px;'>
                                 <div style='font-weight:bold; margin-bottom:5px;'>
-                                    <i class='bi bi-facebook' /> Facebook </div>
+                                    <i class='bi bi-facebook'/> Facebook </div>
                                 <div>
-                                    <a
-                                        href='https://www.facebook.com/profile.php?id=61572521466793&amp;locale=id_ID'
-                                        style='color:#58a6ff; text-decoration:none;' target='_blank'>
+                                    <a href='https://www.facebook.com/profile.php?id=61572521466793&amp;locale=id_ID' style='color:#58a6ff; text-decoration:none;' target='_blank'>
                                         facebook.com/SukriSulawesi
                                     </a>
                                 </div>
@@ -696,10 +652,9 @@
                         <tr>
                             <td style='padding:10px 12px;'>
                                 <div style='font-weight:bold; margin-bottom:5px;'>
-                                    <i class='bi bi-users' /> Freelancer </div>
+                                    <i class='bi bi-users'/> Freelancer </div>
                                 <div>
-                                    <a href='https://www.freelancer.com/u/Sukri76Sulawesi'
-                                        style='color:#58a6ff; text-decoration:none;' target='_blank'>
+                                    <a href='https://www.freelancer.com/u/Sukri76Sulawesi' style='color:#58a6ff; text-decoration:none;' target='_blank'>
                                         freelancer.com/SukriSulawesi
                                     </a>
                                 </div>
@@ -717,40 +672,29 @@
                     <h3>Skills</h3>
 
                     <!-- Nav Pills -->
-                    <ul class='nav nav-pills mb-3 d-flex justify-content-start' id='skillPills'
-                        role='tablist'>
+                    <ul class='nav nav-pills mb-3 d-flex justify-content-start' id='skillPills' role='tablist'>
                         <li class='nav-item' role='presentation'>
-                            <button aria-controls='dev' aria-selected='true' class='nav-link active'
-                                data-bs-target='#dev' data-bs-toggle='pill' id='dev-pill' role='tab'
-                                type='button'>
+                            <button aria-controls='dev' aria-selected='true' class='nav-link active' data-bs-target='#dev' data-bs-toggle='pill' id='dev-pill' role='tab' type='button'>
                                 Web Development
                             </button>
                         </li>
                         <li class='nav-item' role='presentation'>
-                            <button aria-controls='tech' aria-selected='false' class='nav-link'
-                                data-bs-target='#tech' data-bs-toggle='pill' id='tech-pill'
-                                role='tab' type='button'>
+                            <button aria-controls='tech' aria-selected='false' class='nav-link' data-bs-target='#tech' data-bs-toggle='pill' id='tech-pill' role='tab' type='button'>
                                 Technical / Hardware
                             </button>
                         </li>
                         <li class='nav-item' role='presentation'>
-                            <button aria-controls='courses' aria-selected='false' class='nav-link'
-                                data-bs-target='#courses' data-bs-toggle='pill' id='courses-pill'
-                                role='tab' type='button'>
+                            <button aria-controls='courses' aria-selected='false' class='nav-link' data-bs-target='#courses' data-bs-toggle='pill' id='courses-pill' role='tab' type='button'>
                                 Daftar Kursus
                             </button>
                         </li>
                         <li class='nav-item' role='presentation'>
-                            <button aria-controls='apps' aria-selected='false' class='nav-link'
-                                data-bs-target='#apps' data-bs-toggle='pill' id='apps-pill'
-                                role='tab' type='button'>
+                            <button aria-controls='apps' aria-selected='false' class='nav-link' data-bs-target='#apps' data-bs-toggle='pill' id='apps-pill' role='tab' type='button'>
                                 Buat Aplikasi
                             </button>
                         </li>
                         <li class='nav-item' role='presentation'>
-                            <button aria-controls='service' aria-selected='false' class='nav-link'
-                                data-bs-target='#service' data-bs-toggle='pill' id='service-pill'
-                                role='tab' type='button'>
+                            <button aria-controls='service' aria-selected='false' class='nav-link' data-bs-target='#service' data-bs-toggle='pill' id='service-pill' role='tab' type='button'>
                                 Servis Laptop
                             </button>
                         </li>
@@ -759,90 +703,68 @@
                     <!-- Tab Content -->
                     <div class='tab-content' id='skillPillsContent'>
                         <!-- Web Development -->
-                        <div aria-labelledby='dev-pill' class='tab-pane fade show active' id='dev'
-                            role='tabpanel'>
+                        <div aria-labelledby='dev-pill' class='tab-pane fade show active' id='dev' role='tabpanel'>
                             <ul class='skills'>
-                                <li data-color='blue'>CodeIgniter 4 <span style='width:90%;' /></li>
-                                <li data-color='green'>Laravel <span style='width:80%;' /></li>
-                                <li data-color='orange'>PHP <span style='width:85%;' /></li>
-                                <li data-color='purple'>JavaScript <span style='width:70%;' /></li>
-                                <li data-color='blue'>MySQL <span style='width:75%;' /></li>
+                                <li data-color='blue'>CodeIgniter 4 <span style='width:90%;'/></li>
+                                <li data-color='green'>Laravel <span style='width:80%;'/></li>
+                                <li data-color='orange'>PHP <span style='width:85%;'/></li>
+                                <li data-color='purple'>JavaScript <span style='width:70%;'/></li>
+                                <li data-color='blue'>MySQL <span style='width:75%;'/></li>
                             </ul>
                         </div>
 
                         <!-- Technical / Hardware -->
-                        <div aria-labelledby='tech-pill' class='tab-pane fade' id='tech'
-                            role='tabpanel'>
+                        <div aria-labelledby='tech-pill' class='tab-pane fade' id='tech' role='tabpanel'>
                             <ul class='skills'>
-                                <li data-color='green'>Hardware Troubleshooting <span
-                                        style='width:85%;' /></li>
-                                <li data-color='orange'>Server &amp; Networking <span
-                                        style='width:80%;' /></li>
-                                <li data-color='purple'>Peripheral Setup <span style='width:75%;' /></li>
-                                <li data-color='blue'>Electronics <span style='width:70%;' /></li>
-                                <li data-color='green'>Robotics (Arduino Uno) <span
-                                        style='width:65%;' /></li>
+                                <li data-color='green'>Hardware Troubleshooting <span style='width:85%;'/></li>
+                                <li data-color='orange'>Server &amp; Networking <span style='width:80%;'/></li>
+                                <li data-color='purple'>Peripheral Setup <span style='width:75%;'/></li>
+                                <li data-color='blue'>Electronics <span style='width:70%;'/></li>
+                                <li data-color='green'>Robotics (Arduino Uno) <span style='width:65%;'/></li>
                             </ul>
                         </div>
 
                         <!-- Daftar Kursus -->
-                        <div aria-labelledby='courses-pill' class='tab-pane fade' id='courses'
-                            role='tabpanel'>
+                        <div aria-labelledby='courses-pill' class='tab-pane fade' id='courses' role='tabpanel'>
                             <h5 style='color:#c9d1d9; margin-bottom:10px;'>Form Pendaftaran Kursus</h5>
-                            <iframe frameborder='0' height='600' marginheight='0' marginwidth='0'
-                                src='https://docs.google.com/forms/d/e/1FAIpQLSf6ixjrRoivnv7bo3AwQMhyN8NoRyCiet6LRONQVYiT1qrvag/viewform?embedded=true'
-                                style='border:1px solid #30363d; border-radius:6px;' width='100%'>
+                            <iframe frameborder='0' height='600' marginheight='0' marginwidth='0' src='https://docs.google.com/forms/d/e/1FAIpQLSf6ixjrRoivnv7bo3AwQMhyN8NoRyCiet6LRONQVYiT1qrvag/viewform?embedded=true' style='border:1px solid #30363d; border-radius:6px;' width='100%'>
                                 Loading&#8230;
                             </iframe>
                         </div>
 
                         <!-- Buat Website & Aplikasi Desktop -->
-                        <div aria-labelledby='apps-pill' class='tab-pane fade' id='apps'
-                            role='tabpanel'>
-                            <h5
-                                style='color:#c9d1d9; margin-bottom:10px; border-bottom:1px solid #30363d; padding-bottom:6px;'>
+                        <div aria-labelledby='apps-pill' class='tab-pane fade' id='apps' role='tabpanel'>
+                            <h5 style='color:#c9d1d9; margin-bottom:10px; border-bottom:1px solid #30363d; padding-bottom:6px;'>
                                 Form Pemesanan Website &amp; Aplikasi Desktop
                             </h5>
 
-                            <div
-                                style='position:relative; padding-bottom:70%; height:0; overflow:hidden; border:1px solid #30363d; border-radius:6px;'>
-                                <iframe frameborder='0' marginheight='0' marginwidth='0'
-                                    src='https://docs.google.com/forms/d/e/1FAIpQLSeo8vUGQCK0JDG4wmCn0MDGSByhVaWtX4owhJzh5OR3iY3M1A/viewform?embedded=true'
-                                    style='position:absolute; top:0; left:0; width:100%; height:100%; border:0;'>
+                            <div style='position:relative; padding-bottom:70%; height:0; overflow:hidden; border:1px solid #30363d; border-radius:6px;'>
+                                <iframe frameborder='0' marginheight='0' marginwidth='0' src='https://docs.google.com/forms/d/e/1FAIpQLSeo8vUGQCK0JDG4wmCn0MDGSByhVaWtX4owhJzh5OR3iY3M1A/viewform?embedded=true' style='position:absolute; top:0; left:0; width:100%; height:100%; border:0;'>
                                     Loading&#8230;
                                 </iframe>
                             </div>
 
                             <p style='margin-top:10px; color:#c9d1d9;'> Untuk pemesanan Website atau
-                                Aplikasi Desktop, hubungi <a href='https://wa.me/6285251135340'
-                                    style='color:#58a6ff; text-decoration:none; font-weight:bold;'
-                                    target='_blank'>
-                                    <i class='bi bi-whatsapp' /> 085251135340 (Sukri) </a>
+                                Aplikasi Desktop, hubungi <a href='https://wa.me/6285251135340' style='color:#58a6ff; text-decoration:none; font-weight:bold;' target='_blank'>
+                                    <i class='bi bi-whatsapp'/> 085251135340 (Sukri) </a>
                             </p>
                         </div>
 
                         <!-- Servis Komputer -->
-                        <div aria-labelledby='service-pill' class='tab-pane fade' id='service'
-                            role='tabpanel'>
-                            <h5
-                                style='color:#c9d1d9; margin-bottom:10px; border-bottom:1px solid #30363d; padding-bottom:6px;'>
+                        <div aria-labelledby='service-pill' class='tab-pane fade' id='service' role='tabpanel'>
+                            <h5 style='color:#c9d1d9; margin-bottom:10px; border-bottom:1px solid #30363d; padding-bottom:6px;'>
                                 Form Pemesanan Website &amp; Aplikasi Desktop
                             </h5>
 
-                            <div
-                                style='position:relative; padding-bottom:70%; height:0; overflow:hidden; border:1px solid #30363d; border-radius:6px;'>
-                                <iframe frameborder='0' marginheight='0' marginwidth='0'
-                                    src='https://docs.google.com/forms/d/e/1FAIpQLSeXZ22I_Qttrtjq0Qq-1RQUeBR-2IHmOMbLX_40EHHu60PRmg/viewform?embedded=true'
-                                    style='position:absolute; top:0; left:0; width:100%; height:100%; border:0;'>
+                            <div style='position:relative; padding-bottom:70%; height:0; overflow:hidden; border:1px solid #30363d; border-radius:6px;'>
+                                <iframe frameborder='0' marginheight='0' marginwidth='0' src='https://docs.google.com/forms/d/e/1FAIpQLSeXZ22I_Qttrtjq0Qq-1RQUeBR-2IHmOMbLX_40EHHu60PRmg/viewform?embedded=true' style='position:absolute; top:0; left:0; width:100%; height:100%; border:0;'>
                                     Loading&#8230;
                                 </iframe>
                             </div>
 
                             <p style='margin-top:10px; color:#c9d1d9;'> Untuk Servis Komputer /
-                                Laptop, hubungi <a href='https://wa.me/6285251135340'
-                                    style='color:#58a6ff; text-decoration:none; font-weight:bold;'
-                                    target='_blank'>
-                                    <i class='bi bi-whatsapp' /> 085251135340 (Sukri) </a>
+                                Laptop, hubungi <a href='https://wa.me/6285251135340' style='color:#58a6ff; text-decoration:none; font-weight:bold;' target='_blank'>
+                                    <i class='bi bi-whatsapp'/> 085251135340 (Sukri) </a>
                             </p>
                         </div>
                     </div>
@@ -854,70 +776,58 @@
                     <h3 data-aos='fade-up'>Projects</h3>
                     <div class='projects-grid'>
                         <div class='project-card' data-aos='flip-left' data-aos-delay='100'>
-                            <a class='glightbox'
-                                href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzlxjVcDJ_XoEDfYioSrSSUgJE9-osnUJpwIQIM-6oB6vjHf05FBlq11igGy_hsBnqMLLtY6o33DxSxsUAaKFfT73izDh8oA-QIahKaiCS69AQ0rLVAEtuZKHzBE1BsSpUrY8Fh3cqEUDyceVGBxRbWMhU0pNIUtWhKmTge56RRFA2JA_LYCFyU_NZqnr7/s320/undraw_add-tasks_mvlb.png'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzlxjVcDJ_XoEDfYioSrSSUgJE9-osnUJpwIQIM-6oB6vjHf05FBlq11igGy_hsBnqMLLtY6o33DxSxsUAaKFfT73izDh8oA-QIahKaiCS69AQ0rLVAEtuZKHzBE1BsSpUrY8Fh3cqEUDyceVGBxRbWMhU0pNIUtWhKmTge56RRFA2JA_LYCFyU_NZqnr7/s320/undraw_add-tasks_mvlb.png' />
+                            <a class='glightbox' href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzlxjVcDJ_XoEDfYioSrSSUgJE9-osnUJpwIQIM-6oB6vjHf05FBlq11igGy_hsBnqMLLtY6o33DxSxsUAaKFfT73izDh8oA-QIahKaiCS69AQ0rLVAEtuZKHzBE1BsSpUrY8Fh3cqEUDyceVGBxRbWMhU0pNIUtWhKmTge56RRFA2JA_LYCFyU_NZqnr7/s320/undraw_add-tasks_mvlb.png'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzlxjVcDJ_XoEDfYioSrSSUgJE9-osnUJpwIQIM-6oB6vjHf05FBlq11igGy_hsBnqMLLtY6o33DxSxsUAaKFfT73izDh8oA-QIahKaiCS69AQ0rLVAEtuZKHzBE1BsSpUrY8Fh3cqEUDyceVGBxRbWMhU0pNIUtWhKmTge56RRFA2JA_LYCFyU_NZqnr7/s320/undraw_add-tasks_mvlb.png'/>
                             </a>
                             <h4>
-                                <a href='https://apelsiaga.banggaikab.go.id' target='_blank'>
+                                <a href='' target='_blank'>
                                     Apelsiaga</a>
                             </h4>
                         </div>
                         <div class='project-card' data-aos='flip-left' data-aos-delay='200'>
-                            <a class='glightbox'
-                                href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimOnvYFMwaGtoSVR5o-nWtrc3KG1VbnzIEP4n_2nCsrd54NpgecBiH8mopN_T5bqTkkDjJ2YM82yJTEk5P1SeSiKx0_6ujOnVlDQWb8tFIFbSFGtk5GNvi1WFJfj3lvKueXrxOxoKGHWOpG22-HwOYP_x7LS3CMYDqJ6gNzsfeT8qCF0b2RkMEM1azKHMI/s1760/undraw_finance_m6vw.png'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimOnvYFMwaGtoSVR5o-nWtrc3KG1VbnzIEP4n_2nCsrd54NpgecBiH8mopN_T5bqTkkDjJ2YM82yJTEk5P1SeSiKx0_6ujOnVlDQWb8tFIFbSFGtk5GNvi1WFJfj3lvKueXrxOxoKGHWOpG22-HwOYP_x7LS3CMYDqJ6gNzsfeT8qCF0b2RkMEM1azKHMI/s1760/undraw_finance_m6vw.png' />
+                            <a class='glightbox' href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimOnvYFMwaGtoSVR5o-nWtrc3KG1VbnzIEP4n_2nCsrd54NpgecBiH8mopN_T5bqTkkDjJ2YM82yJTEk5P1SeSiKx0_6ujOnVlDQWb8tFIFbSFGtk5GNvi1WFJfj3lvKueXrxOxoKGHWOpG22-HwOYP_x7LS3CMYDqJ6gNzsfeT8qCF0b2RkMEM1azKHMI/s1760/undraw_finance_m6vw.png'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimOnvYFMwaGtoSVR5o-nWtrc3KG1VbnzIEP4n_2nCsrd54NpgecBiH8mopN_T5bqTkkDjJ2YM82yJTEk5P1SeSiKx0_6ujOnVlDQWb8tFIFbSFGtk5GNvi1WFJfj3lvKueXrxOxoKGHWOpG22-HwOYP_x7LS3CMYDqJ6gNzsfeT8qCF0b2RkMEM1azKHMI/s1760/undraw_finance_m6vw.png'/>
                             </a>
                             <h4>
-                                <a href='https://serbunib.banggaikab.go.id' target='_blank'>Serbunib</a>
+                                <a href='' target='_blank'>Serbunib</a>
                             </h4>
                         </div>
                         <div class='project-card' data-aos='flip-left' data-aos-delay='200'>
 
-                            <a class='glightbox'
-                                href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYP1XBDXWdjPGJeEnAvNVOP_a5oHk210Da48X4ye2-PWKqWbpcnmIO634iGMBkgHWVrz0dUhzUh86hldUqF4wr9W30len44qT5Ldj9ur_h-_jw-cOfmuhP-AbhTOhmz2hL2VW-EdrA6qcpsew2qqIlbjsaJ91i38zteWs7w8Ix3x9kPneEAkmoOBcXmYT-/s320/undraw_real-time-sync_ro77.png'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYP1XBDXWdjPGJeEnAvNVOP_a5oHk210Da48X4ye2-PWKqWbpcnmIO634iGMBkgHWVrz0dUhzUh86hldUqF4wr9W30len44qT5Ldj9ur_h-_jw-cOfmuhP-AbhTOhmz2hL2VW-EdrA6qcpsew2qqIlbjsaJ91i38zteWs7w8Ix3x9kPneEAkmoOBcXmYT-/s320/undraw_real-time-sync_ro77.png' />
+                            <a class='glightbox' href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYP1XBDXWdjPGJeEnAvNVOP_a5oHk210Da48X4ye2-PWKqWbpcnmIO634iGMBkgHWVrz0dUhzUh86hldUqF4wr9W30len44qT5Ldj9ur_h-_jw-cOfmuhP-AbhTOhmz2hL2VW-EdrA6qcpsew2qqIlbjsaJ91i38zteWs7w8Ix3x9kPneEAkmoOBcXmYT-/s320/undraw_real-time-sync_ro77.png'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYP1XBDXWdjPGJeEnAvNVOP_a5oHk210Da48X4ye2-PWKqWbpcnmIO634iGMBkgHWVrz0dUhzUh86hldUqF4wr9W30len44qT5Ldj9ur_h-_jw-cOfmuhP-AbhTOhmz2hL2VW-EdrA6qcpsew2qqIlbjsaJ91i38zteWs7w8Ix3x9kPneEAkmoOBcXmYT-/s320/undraw_real-time-sync_ro77.png'/>
                             </a>
                             <h4>
-                                <a href='https://sicakap.banggaikab.go.id' target='_blank'>Sicakap</a>
+                                <a href='' target='_blank'>Sicakap</a>
                             </h4>
                         </div>
 
                         <div class='project-card' data-aos='flip-left' data-aos-delay='200'>
 
-                            <a class='glightbox'
-                                href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-F9wN1G_URg245PIm1-O1n1xxZ9T36Vt0WM6pgoK-8Mvqhyphenhyphenu5KTFClcEETBzk-LBtTdZNyPBwJ62092SvC3ZeVYZM68fBVUA-3I2gGSmcsCCGf_SoFJ-A0byRJ0Ah3s4ZS-2xSX5iJfI0dJWJULeFmSv5wJYslc8VZeaK05lGIRzc7D0FrQxJRpWf6ASk/s320/undraw_math_ldpv.png'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-F9wN1G_URg245PIm1-O1n1xxZ9T36Vt0WM6pgoK-8Mvqhyphenhyphenu5KTFClcEETBzk-LBtTdZNyPBwJ62092SvC3ZeVYZM68fBVUA-3I2gGSmcsCCGf_SoFJ-A0byRJ0Ah3s4ZS-2xSX5iJfI0dJWJULeFmSv5wJYslc8VZeaK05lGIRzc7D0FrQxJRpWf6ASk/s320/undraw_math_ldpv.png' />
+                            <a class='glightbox' href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-F9wN1G_URg245PIm1-O1n1xxZ9T36Vt0WM6pgoK-8Mvqhyphenhyphenu5KTFClcEETBzk-LBtTdZNyPBwJ62092SvC3ZeVYZM68fBVUA-3I2gGSmcsCCGf_SoFJ-A0byRJ0Ah3s4ZS-2xSX5iJfI0dJWJULeFmSv5wJYslc8VZeaK05lGIRzc7D0FrQxJRpWf6ASk/s320/undraw_math_ldpv.png'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-F9wN1G_URg245PIm1-O1n1xxZ9T36Vt0WM6pgoK-8Mvqhyphenhyphenu5KTFClcEETBzk-LBtTdZNyPBwJ62092SvC3ZeVYZM68fBVUA-3I2gGSmcsCCGf_SoFJ-A0byRJ0Ah3s4ZS-2xSX5iJfI0dJWJULeFmSv5wJYslc8VZeaK05lGIRzc7D0FrQxJRpWf6ASk/s320/undraw_math_ldpv.png'/>
                             </a>
                             <h4>
-                                <a href='https://sepedabaret.banggaikab.go.id' target='_blank'>
+                                <a href='' target='_blank'>
                                     Sepedabaret</a>
                             </h4>
                         </div>
                         <div class='project-card' data-aos='flip-left' data-aos-delay='200'>
 
-                            <a class='glightbox'
-                                href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr4pv7k-wIO2FaO1Kk0wTzQVvckHDqe-YAdvFas-RVUjODBUAG-wTXpyxdSKv4UgQ1K0nM6kdfv3tS209JFXhOshmsOV-NSEMOYI99Gkw61zcqR8RfPZWm43B2UhySzaM_UQnYuWpzUasI32yhJlYNXT1RQliHZ54MduDoygHxkJchm2madSUfhyphenhyphen8hnBLA/s320/undraw_web-app_141a.png'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr4pv7k-wIO2FaO1Kk0wTzQVvckHDqe-YAdvFas-RVUjODBUAG-wTXpyxdSKv4UgQ1K0nM6kdfv3tS209JFXhOshmsOV-NSEMOYI99Gkw61zcqR8RfPZWm43B2UhySzaM_UQnYuWpzUasI32yhJlYNXT1RQliHZ54MduDoygHxkJchm2madSUfhyphenhyphen8hnBLA/s320/undraw_web-app_141a.png' />
+                            <a class='glightbox' href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr4pv7k-wIO2FaO1Kk0wTzQVvckHDqe-YAdvFas-RVUjODBUAG-wTXpyxdSKv4UgQ1K0nM6kdfv3tS209JFXhOshmsOV-NSEMOYI99Gkw61zcqR8RfPZWm43B2UhySzaM_UQnYuWpzUasI32yhJlYNXT1RQliHZ54MduDoygHxkJchm2madSUfhyphenhyphen8hnBLA/s320/undraw_web-app_141a.png'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr4pv7k-wIO2FaO1Kk0wTzQVvckHDqe-YAdvFas-RVUjODBUAG-wTXpyxdSKv4UgQ1K0nM6kdfv3tS209JFXhOshmsOV-NSEMOYI99Gkw61zcqR8RfPZWm43B2UhySzaM_UQnYuWpzUasI32yhJlYNXT1RQliHZ54MduDoygHxkJchm2madSUfhyphenhyphen8hnBLA/s320/undraw_web-app_141a.png'/>
                             </a>
                             <h4>
-                                <a href='https://simpatitoilijaya.com/' target='_blank'>
+                                <a href='' target='_blank'>
                                     Simpati</a>
                             </h4>
                         </div>
                         <div class='project-card' data-aos='flip-left' data-aos-delay='200'>
-                            <a class='glightbox'
-                                href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9qTOZBoNoKkq_HID016bZl3MNasVoFgZRS2QW9v0KqgwbxTozdC1-tSjDiENNpTX_Dv_j4OkbxtQWeu9lC_bRil4aDyqYvNLX3s1ePsGpRDcOhGUlQx8UAtlZ84zkvTktM5W0WcA9dgxH__lAuU87OBcrZYOo5LIGmFNd1yhSc6dEiuBKQUrS5tXgZBDE/s320/undraw_pair-programming_9jyg.png'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9qTOZBoNoKkq_HID016bZl3MNasVoFgZRS2QW9v0KqgwbxTozdC1-tSjDiENNpTX_Dv_j4OkbxtQWeu9lC_bRil4aDyqYvNLX3s1ePsGpRDcOhGUlQx8UAtlZ84zkvTktM5W0WcA9dgxH__lAuU87OBcrZYOo5LIGmFNd1yhSc6dEiuBKQUrS5tXgZBDE/s320/undraw_pair-programming_9jyg.png' />
+                            <a class='glightbox' href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9qTOZBoNoKkq_HID016bZl3MNasVoFgZRS2QW9v0KqgwbxTozdC1-tSjDiENNpTX_Dv_j4OkbxtQWeu9lC_bRil4aDyqYvNLX3s1ePsGpRDcOhGUlQx8UAtlZ84zkvTktM5W0WcA9dgxH__lAuU87OBcrZYOo5LIGmFNd1yhSc6dEiuBKQUrS5tXgZBDE/s320/undraw_pair-programming_9jyg.png'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9qTOZBoNoKkq_HID016bZl3MNasVoFgZRS2QW9v0KqgwbxTozdC1-tSjDiENNpTX_Dv_j4OkbxtQWeu9lC_bRil4aDyqYvNLX3s1ePsGpRDcOhGUlQx8UAtlZ84zkvTktM5W0WcA9dgxH__lAuU87OBcrZYOo5LIGmFNd1yhSc6dEiuBKQUrS5tXgZBDE/s320/undraw_pair-programming_9jyg.png'/>
                             </a>
                             <h4>
-                                <a href='https://techcourse.com' target='_blank'>TechCourse</a>
+                                <a href='' target='_blank'>TechCourse</a>
                             </h4>
                         </div>
                     </div>
@@ -930,19 +840,13 @@
 
         <!-- Tombol CTA -->
         <div class='opensid-buttons text-center mb-4'>
-            <a class='btn btn-primary m-2'
-                href='https://docs.google.com/forms/d/e/1FAIpQLSeo8vUGQCK0JDG4wmCn0MDGSByhVaWtX4owhJzh5OR3iY3M1A/viewform'
-                rel='noopener noreferrer' target='_blank'>
+            <a class='btn btn-primary m-2' href='https://docs.google.com/forms/d/e/1FAIpQLSeo8vUGQCK0JDG4wmCn0MDGSByhVaWtX4owhJzh5OR3iY3M1A/viewform' rel='noopener noreferrer' target='_blank'>
                 Pesan Program Sekarang
             </a>
-            <a class='btn btn-success m-2'
-                href='https://docs.google.com/forms/d/e/1FAIpQLSeXZ22I_Qttrtjq0Qq-1RQUeBR-2IHmOMbLX_40EHHu60PRmg/viewform'
-                rel='noopener noreferrer' target='_blank'>
+            <a class='btn btn-success m-2' href='https://docs.google.com/forms/d/e/1FAIpQLSeXZ22I_Qttrtjq0Qq-1RQUeBR-2IHmOMbLX_40EHHu60PRmg/viewform' rel='noopener noreferrer' target='_blank'>
                 Servis Komputer Sekarang
             </a>
-            <a class='btn btn-warning m-2'
-                href='https://docs.google.com/forms/d/e/1FAIpQLSf6ixjrRoivnv7bo3AwQMhyN8NoRyCiet6LRONQVYiT1qrvag/viewform'
-                rel='noopener noreferrer' target='_blank'>
+            <a class='btn btn-warning m-2' href='https://docs.google.com/forms/d/e/1FAIpQLSf6ixjrRoivnv7bo3AwQMhyN8NoRyCiet6LRONQVYiT1qrvag/viewform' rel='noopener noreferrer' target='_blank'>
                 Kursus Sekarang
             </a>
         </div>
@@ -957,24 +861,19 @@
                     <div class='col-12 col-sm-6 col-md-4' data-aos='zoom-in' data-aos-delay='100'>
                         <div class='opensid-card p-3 bg-dark text-light rounded h-100 text-center'>
                             <!-- Link gambar -->
-                            <a class='glightbox'
-                                href='https://opendesa.id/wp-content/uploads/2023/10/shoot.png'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://opendesa.id/wp-content/uploads/2023/10/shoot.png' />
+                            <a class='glightbox' href='https://opendesa.id/wp-content/uploads/2023/10/shoot.png'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://opendesa.id/wp-content/uploads/2023/10/shoot.png'/>
                             </a>
                             <h4>
-                                <a class='text-light text-decoration-none'
-                                    href='https://www.natairaya.desa.id/' target='_blank'>DENATRA</a>
+                                <a class='text-light text-decoration-none' href='https://www.natairaya.desa.id/' target='_blank'>DENATRA</a>
                             </h4>
                             <p>Lisensi Tema berdasarkan Identitas Desa, bukan per Domain.</p>
                             <!-- Tombol WA dan Demo -->
                             <div class='mt-3 d-flex justify-content-center gap-2'>
-                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340'
-                                    target='_blank'>
+                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340' target='_blank'>
                                     WhatsApp
                                 </a>
-                                <a class='btn btn-primary btn-sm'
-                                    href='https://www.natairaya.desa.id/' target='_blank'>
+                                <a class='btn btn-primary btn-sm' href='https://www.natairaya.desa.id/' target='_blank'>
                                     Demo
                                 </a>
                             </div>
@@ -985,24 +884,19 @@
                     <div class='col-12 col-sm-6 col-md-4' data-aos='zoom-in' data-aos-delay='200'>
                         <div class='opensid-card p-3 bg-dark text-light rounded h-100'>
                             <!-- Link gambar -->
-                            <a class='glightbox'
-                                href='https://opendesa.id/wp-content/uploads/2023/10/silirr-1024x640.jpg'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://opendesa.id/wp-content/uploads/2023/10/silirr-1024x640.jpg' />
+                            <a class='glightbox' href='https://opendesa.id/wp-content/uploads/2023/10/silirr-1024x640.jpg'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://opendesa.id/wp-content/uploads/2023/10/silirr-1024x640.jpg'/>
                             </a>
                             <h4>
-                                <a class='text-light text-decoration-none'
-                                    href='https://preview.silirdev.com/' target='_blank'>SILIR</a>
+                                <a class='text-light text-decoration-none' href='https://preview.silirdev.com/' target='_blank'>SILIR</a>
                             </h4>
                             <p>Lisensi Tema berdasarkan Identitas Desa, bukan per Domain.</p>
                             <!-- Tombol WA dan Demo -->
                             <div class='mt-3 d-flex justify-content-center gap-2'>
-                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340'
-                                    target='_blank'>
+                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340' target='_blank'>
                                     WhatsApp
                                 </a>
-                                <a class='btn btn-primary btn-sm'
-                                    href='https://preview.silirdev.com/' target='_blank'>
+                                <a class='btn btn-primary btn-sm' href='https://preview.silirdev.com/' target='_blank'>
                                     Demo
                                 </a>
                             </div>
@@ -1012,29 +906,22 @@
                     <div class='col-12 col-sm-6 col-md-4' data-aos='zoom-in' data-aos-delay='300'>
                         <div class='opensid-card p-3 bg-dark text-light rounded h-100'>
                             <!-- Gambar dengan latar abu-abu -->
-                            <div
-                                style='background-color: #f0f0f0; padding: 15px; display: inline-block; border-radius: 8px;'>
-                                <a class='glightbox'
-                                    href='https://opendesa.id/wp-content/uploads/2023/10/photo_2021-12-03_03-09-25-1024x654.jpg'>
-                                    <img alt='Denatra' class='img-fluid zoom-img'
-                                        src='https://opendesa.id/wp-content/uploads/2023/10/photo_2021-12-03_03-09-25-1024x654.jpg'
-                                        style='display: block; max-width: 100%; height: auto;' />
+                            <div style='background-color: #f0f0f0; padding: 15px; display: inline-block; border-radius: 8px;'>
+                                <a class='glightbox' href='https://opendesa.id/wp-content/uploads/2023/10/photo_2021-12-03_03-09-25-1024x654.jpg'>
+                                    <img alt='Denatra' class='img-fluid zoom-img' src='https://opendesa.id/wp-content/uploads/2023/10/photo_2021-12-03_03-09-25-1024x654.jpg' style='display: block; max-width: 100%; height: auto;'/>
                                 </a>
                             </div>
 
                             <h4>
-                                <a class='text-light text-decoration-none'
-                                    href='https://temabatuah.com/' target='_blank'>BATUAH</a>
+                                <a class='text-light text-decoration-none' href='https://temabatuah.com/' target='_blank'>BATUAH</a>
                             </h4>
                             <p>Lisensi Tema berdasarkan Identitas Desa, bukan per Domain.</p>
                             <!-- Tombol WA dan Demo -->
                             <div class='mt-3 d-flex justify-content-center gap-2'>
-                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340'
-                                    target='_blank'>
+                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340' target='_blank'>
                                     WhatsApp
                                 </a>
-                                <a class='btn btn-primary btn-sm' href='https://temabatuah.com/'
-                                    target='_blank'>
+                                <a class='btn btn-primary btn-sm' href='https://temabatuah.com/' target='_blank'>
                                     Demo
                                 </a>
                             </div>
@@ -1044,24 +931,19 @@
                     <div class='col-12 col-sm-6 col-md-4' data-aos='zoom-in' data-aos-delay='100'>
                         <div class='opensid-card p-3 bg-dark text-light rounded h-100'>
                             <!-- Link gambar -->
-                            <a class='glightbox'
-                                href='https://opendesa.id/wp-content/uploads/2023/10/tema-denava-1024x644.png'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://opendesa.id/wp-content/uploads/2023/10/tema-denava-1024x644.png' />
+                            <a class='glightbox' href='https://opendesa.id/wp-content/uploads/2023/10/tema-denava-1024x644.png'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://opendesa.id/wp-content/uploads/2023/10/tema-denava-1024x644.png'/>
                             </a>
                             <h4>
-                                <a class='text-light text-decoration-none'
-                                    href='http://nataibaru.desa.id/' target='_blank'>DENAVA</a>
+                                <a class='text-light text-decoration-none' href='http://nataibaru.desa.id/' target='_blank'>DENAVA</a>
                             </h4>
                             <p>Lisensi Tema berdasarkan Identitas Desa, bukan per Domain.</p>
                             <!-- Tombol WA dan Demo -->
                             <div class='mt-3 d-flex justify-content-center gap-2'>
-                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340'
-                                    target='_blank'>
+                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340' target='_blank'>
                                     WhatsApp
                                 </a>
-                                <a class='btn btn-primary btn-sm' href='http://nataibaru.desa.id/'
-                                    target='_blank'>
+                                <a class='btn btn-primary btn-sm' href='http://nataibaru.desa.id/' target='_blank'>
                                     Demo
                                 </a>
                             </div>
@@ -1071,25 +953,20 @@
                     <div class='col-12 col-sm-6 col-md-4' data-aos='zoom-in' data-aos-delay='200'>
                         <div class='opensid-card p-3 bg-dark text-light rounded h-100'>
                             <!-- Link gambar -->
-                            <a class='glightbox'
-                                href='https://opendesa.id/wp-content/uploads/2023/10/photo_2023-03-10_16-04-52-1024x636.jpg'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://opendesa.id/wp-content/uploads/2023/10/photo_2023-03-10_16-04-52-1024x636.jpg' />
+                            <a class='glightbox' href='https://opendesa.id/wp-content/uploads/2023/10/photo_2023-03-10_16-04-52-1024x636.jpg'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://opendesa.id/wp-content/uploads/2023/10/photo_2023-03-10_16-04-52-1024x636.jpg'/>
                             </a>
                             <h4>
-                                <a class='text-light text-decoration-none'
-                                    href='http://temapusako.rumahgadang.my.id/' target='_blank'>
+                                <a class='text-light text-decoration-none' href='http://temapusako.rumahgadang.my.id/' target='_blank'>
                                     PUSAKO</a>
                             </h4>
                             <p>Lisensi Tema berdasarkan Identitas Desa, bukan per Domain.</p>
                             <!-- Tombol WA dan Demo -->
                             <div class='mt-3 d-flex justify-content-center gap-2'>
-                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340'
-                                    target='_blank'>
+                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340' target='_blank'>
                                     WhatsApp
                                 </a>
-                                <a class='btn btn-primary btn-sm'
-                                    href='http://temapusako.rumahgadang.my.id/' target='_blank'>
+                                <a class='btn btn-primary btn-sm' href='http://temapusako.rumahgadang.my.id/' target='_blank'>
                                     Demo
                                 </a>
                             </div>
@@ -1099,24 +976,19 @@
                     <div class='col-12 col-sm-6 col-md-4' data-aos='zoom-in' data-aos-delay='300'>
                         <div class='opensid-card p-3 bg-dark text-light rounded h-100'>
                             <!-- Link gambar -->
-                            <a class='glightbox'
-                                href='https://opendesa.id/wp-content/uploads/2025/06/6215369954727937322-1024x618.jpg'>
-                                <img alt='Denatra' class='img-fluid zoom-img'
-                                    src='https://opendesa.id/wp-content/uploads/2025/06/6215369954727937322-1024x618.jpg' />
+                            <a class='glightbox' href='https://opendesa.id/wp-content/uploads/2025/06/6215369954727937322-1024x618.jpg'>
+                                <img alt='Denatra' class='img-fluid zoom-img' src='https://opendesa.id/wp-content/uploads/2025/06/6215369954727937322-1024x618.jpg'/>
                             </a>
                             <h4>
-                                <a class='text-light text-decoration-none'
-                                    href='https://lestari.opendesa.id/' target='_blank'>LESTARI</a>
+                                <a class='text-light text-decoration-none' href='https://lestari.opendesa.id/' target='_blank'>LESTARI</a>
                             </h4>
                             <p>Lisensi Tema berdasarkan Identitas Desa, bukan per Domain.</p>
                             <!-- Tombol WA dan Demo -->
                             <div class='mt-3 d-flex justify-content-center gap-2'>
-                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340'
-                                    target='_blank'>
+                                <a class='btn btn-success btn-sm' href='https://wa.me/6285251135340' target='_blank'>
                                     WhatsApp
                                 </a>
-                                <a class='btn btn-primary btn-sm'
-                                    href='https://lestari.opendesa.id/' target='_blank'>
+                                <a class='btn btn-primary btn-sm' href='https://lestari.opendesa.id/' target='_blank'>
                                     Demo
                                 </a>
                             </div>
@@ -1127,7 +999,7 @@
         </section>
 
         <!-- FOOTER -->
-        <footer> &#169; <data:blog.year /> <data:blog.title /> &#8212; All Rights Reserved </footer>
+        <footer> &#169; <data:blog.year/> <data:blog.title/> &#8212; All Rights Reserved </footer>
 
         <!-- Tombol Scroll Top -->
         <button id='scrollTopBtn' title='Go to top'>
@@ -1135,27 +1007,23 @@
         </button>
 
         <!-- Tombol YouTube -->
-        <a href='https://www.youtube.com/@sukrisulawesi' id='youtubeBtn' target='_blank'
-            title='YouTube'>
-            <img alt='YouTube'
-                src='https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png' />
+        <a href='https://www.youtube.com/@sukrisulawesi' id='youtubeBtn' target='_blank' title='YouTube'>
+            <img alt='YouTube' src='https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png'/>
         </a>
 
         <!-- Tombol WhatsApp -->
         <a href='https://wa.me/6285251135340' id='whatsappBtn' target='_blank' title='WhatsApp'>
-            <img alt='WhatsApp'
-                src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' />
+            <img alt='WhatsApp' src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg'/>
         </a>
 
         <!-- Bootstrap JS Bundle -->
-        <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js' />
+        <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js'/>
 
         <!-- GLightbox -->
-        <script src='https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js' />
-        <link href='https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css'
-            rel='stylesheet' />
+        <script src='https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js'/>
+        <link href='https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css' rel='stylesheet'/>
         <!-- AOS -->
-        <script src='https://unpkg.com/aos@2.3.1/dist/aos.js' />
+        <script src='https://unpkg.com/aos@2.3.1/dist/aos.js'/>
         <script>
             const lightbox = GLightbox({ selector: &#39;.glightbox&#39; });
 
